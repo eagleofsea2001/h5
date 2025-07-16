@@ -1,0 +1,119 @@
+{
+  "spider": "",
+  "lives": [
+    {
+      "name": "初秋语",
+      "type": 0,
+      "url": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/xx/lives/【公众号杰歌软件APP】如有收费,直接找退款.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+    }
+  ],
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "sites": [
+    {
+      "key": "ff",
+      "name": "ff",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "lz",
+      "name": "lz",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "Yt",
+      "name": "yutu",
+      "type": 0,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "Sm",
+      "name": "semao",
+      "type": 0,
+      "api": "https://caiji.semaozy.net/inc/api.php/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+        {
+      "key": "av",
+      "name": "souav",
+      "type": 0,
+      "api": "https://api.souavzy.vip/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "Cl",
+      "name": "caoliu",
+      "type": 0,
+      "api": "https://www.caoliuzyw.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+        {
+      "key": "aosk",
+      "name": "aosk",
+      "type": 0,
+      "api": "https://aosikazy.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "kbzy",
+      "name": "kuaibo",
+      "type": 0,
+      "api": "https://gayapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "线路1",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "qq", "lz", "lzm3u8", "腾讯", "qiyi", "爱奇艺", "奇艺", "heimuer",
+          "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果",
+          "imgo", "rx", "ltnb", "bilibili", "1905", "xigua"
+        ]
+      }
+    },
+    {
+      "name": "线路2",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    }
+  ],
+  "rules": [],
+  "flags": [
+    "youku", "lz", "lzm3u8", "优酷", "优 酷", "优酷视频", "qq", "腾讯", "腾 讯",
+    "腾讯视频", "iqiyi", "qiyi", "奇艺", "爱奇艺", "爱 奇 艺", "m1905", "xigua",
+    "letv", "leshi", "乐视", "乐 视", "sohu", "搜狐", "搜 狐", "搜狐视频", "tudou",
+    "pptv", "mgtv", "芒果", "imgo", "芒果TV", "芒 果 T V", "qiqi", "kuying-qq",
+    "bilibili", "哔 哩", "哔 哩 哔 哩"
+  ],
+  "ads": [
+    "wan.51img1.com",
+    "iqiyi.hbuioo.com",
+    "vip.ffzyad.com",
+    "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
+  ]
+}

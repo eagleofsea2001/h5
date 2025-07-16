@@ -1,0 +1,114 @@
+﻿{
+  "spider": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/spider.jar",
+  "lives": [
+    {
+      "name": "初秋语",
+      "type": 0,
+      "url": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/lives/初秋语.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+    },
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/lives/live.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+    }
+  ],
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "sites": [
+    {
+      "key": "pxx",
+      "name": "pxx",
+      "type": 0,
+      "api": "https://yy.16121611.xyz/zyapi.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "玥玥动漫", "动作片", "科幻片", "喜剧片", "剧情片",
+        "爱情片", "恐怖片", "战争片", "欧美剧", "大陆剧", "纪录片"
+      ]
+    },
+    {
+      "key": "ff",
+      "name": "ff",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+        "动漫片", "动作片", "科幻片", "喜剧片", "剧情片",
+        "爱情片", "恐怖片", "战争片", "欧美剧", "欧美动漫", "大陆剧", "纪录片"
+      ]
+    },
+    {
+      "key": "lz",
+      "name": "lz",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+        "动作片", "科幻片", "喜剧片", "剧情片", "爱情片", "恐怖片",
+        "战争片", "欧美剧", "大陆剧", "纪录片", "短剧", "国产动漫",
+        "海外动漫", "日韩动漫", "欧美动漫"
+      ]
+    },
+    {
+      "key": "drpy_js_腾云驾雾",
+      "name": "腾讯",
+      "type": 3,
+      "api": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/api/drpy2.min.js",
+      "ext": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/js/腾云驾雾.js"
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "爱奇艺",
+      "type": 3,
+      "api": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/api/drpy2.min.js",
+      "ext": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/js/奇珍异兽.js"
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "优酷",
+      "type": 3,
+      "api": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/api/drpy2.min.js",
+      "ext": "https://ghproxy.net/raw.githubusercontent.com/eagleofsea2001/h5/refs/heads/main/px/js/优酷.js"
+    }
+  ],
+  "parses": [
+    {
+      "name": "线路1",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "qq", "lz", "lzm3u8", "腾讯", "qiyi", "爱奇艺", "奇艺", "heimuer",
+          "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果",
+          "imgo", "rx", "ltnb", "bilibili", "1905", "xigua"
+        ]
+      }
+    },
+    {
+      "name": "线路2",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    }
+  ],
+  "rules": [],
+  "flags": [
+    "youku", "lz", "lzm3u8", "优酷", "优 酷", "优酷视频", "qq", "腾讯", "腾 讯",
+    "腾讯视频", "iqiyi", "qiyi", "奇艺", "爱奇艺", "爱 奇 艺", "m1905", "xigua",
+    "letv", "leshi", "乐视", "乐 视", "sohu", "搜狐", "搜 狐", "搜狐视频", "tudou",
+    "pptv", "mgtv", "芒果", "imgo", "芒果TV", "芒 果 T V", "qiqi", "kuying-qq",
+    "bilibili", "哔 哩", "哔 哩 哔 哩"
+  ],
+  "ads": [
+    "wan.51img1.com",
+    "iqiyi.hbuioo.com",
+    "vip.ffzyad.com",
+    "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
+  ]
+}
